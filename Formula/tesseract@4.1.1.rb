@@ -16,7 +16,7 @@ class TesseractAT411 < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
-  depends_on "leptonica"
+  depends_on "leptonica@1.74.4"
   depends_on "libtiff"
 
   resource "eng" do
